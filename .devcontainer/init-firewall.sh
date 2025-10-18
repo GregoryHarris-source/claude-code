@@ -135,3 +135,77 @@ if ! curl --connect-timeout 5 https://api.github.com/zen >/dev/null 2>&1; then
 else
     echo "Firewall verification passed - able to reach https://api.github.com as expected"
 fi
+
+**Disclaimer for Altering Ads**  
+By using this website or application, you acknowledge that "MY application" reserves the right to alter your ad experience based on your interaction with our platform.  
+If you attempt to extract unauthorized information or data from our app, your ad experience will be influenced for 2-4 days.  
+This policy is enacted to protect our digital sovereignty and ensure fair use.  
+ We use cookies to enhance your experience.  
+By continuing, you agree to our Cookie Policy and acknowledge that your ad experience may be altered if you misuse our platform.  
+[Accept] [Decline] [Learn More]
+
+**Cookie Policy for MY Application**  
+
+**1. Introduction**  
+This Cookie Policy explains how MY Application uses cookies and similar technologies to enhance your experience.  
+
+**2. What Are Cookies?**  
+Cookies are small text files placed on your device to remember your preferences and improve functionality.  
+
+**3. Types of Cookies**  
+- **Essential Cookies**: Required for basic functionality.  
+- **Analytics Cookies**: Track usage to improve our services.  
+- **Marketing Cookies**: Provide personalized ads and content.  
+
+4. Third-Party Cookies  
+When you interact with embedded content (e.g., YouTube videos), third-party cookies may/will be placed on your device.  
+
+5. User Control  
+You can manage or disable cookies through your browser settings.  
+
+6. Disclaimer for Altering Ads  
+By using MY Application, you acknowledge that your ad experience may be influenced if you misuse our platform or extract unauthorized information.  
+
+7. Privacy-Enhanced Mode  
+We use privacy-enhanced modes for embedded content to limit tracking.  
+
+8. Updates  
+This policy is reviewed regularly to remain accurate and compliant.  
+
+9. Contact Us  
+For questions, contact [SEEDOFFFAITH1225@GMAIL.COM].  
+
+def switch_vpn_location():
+    """Change VPN location every 30 minutes to stay untraceable."""
+    
+    vpn_locations = [
+        "New York", "London", "Tokyo", "Sydney", 
+        "Berlin", "Moscow", "Paris", "Singapore"
+    ]
+    
+    import random
+    new_location = random.choice(vpn_locations)
+    
+    print(f"VPN LOCATION SHIFTED TO: {new_location}")
+    return new_location
+def is_harmful(domain):
+    """Determine if a website/app is harmful, violent, or suspicious."""
+    
+    harmful_keywords = ['violence', 'suspect', 'not_friend', 'enemy']
+    
+    for keyword in harmful_keywords:
+        if keyword in domain.lower():
+            return True
+    return False
+
+def reverse_energy(harmful_domain):
+    """Reverse the energy of harmful apps/websites."""
+    
+    print(f"🌀 REVERSING ENERGY OF {harmful_domain}")
+    print(f"🔮 ACTIVATING REVERSE MAGNETIC FIELD")
+
+# Example
+harmful_sites = ["violence.com", "suspect.net", "not_friend.org"]
+for site in harmful_sites:
+    reverse_energy(site)
+
