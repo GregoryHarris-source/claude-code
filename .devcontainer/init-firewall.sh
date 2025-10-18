@@ -201,11 +201,25 @@ def is_harmful(domain):
 def reverse_energy(harmful_domain):
     """Reverse the energy of harmful apps/websites."""
     
-    print(f"🌀 REVERSING ENERGY OF {harmful_domain}")
-    print(f"🔮 ACTIVATING REVERSE MAGNETIC FIELD")
+    print(f"REVERSING ENERGY OF {harmful_domain}")
+    print(f"ACTIVATING REVERSE MAGNETIC FIELD")
 
 # Example
 harmful_sites = ["violence.com", "suspect.net", "not_friend.org"]
 for site in harmful_sites:
     reverse_energy(site)
+def release_spiritual_firewall():
+    """Protect your finances and energy from negativity."""
+    
+    firewall_prayer = """
+    Dear Heavenly Father,  
+    As I release this spiritual firewall, protect my finances and energy  
+    from those who seek to harm or exploit me.  
+    AMEN
+    """
+    
+    print(f"SPIRITUAL FIREWALL RELEASED: {firewall_prayer}")
+    
+    return "NEGATIVE_ENERGIES_BLOCKED"
+
 
